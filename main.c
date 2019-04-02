@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int main() {
-asd
-fg
-f
-f
-f
+
+printf("jhdhs\n");
+
+return 0;
 }
-return 0:
