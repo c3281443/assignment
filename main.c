@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-int mian() {
-
+int main() {
+asd
+fg
+f
+f
+f
 }
 return 0:
