@@ -4,7 +4,7 @@ char word[100]
 int key
 
 
-printf("Enter a word : ");
+printf("Enter a word : "); //jlnl
 scanf(%s, word)
 printf("\n Enter a key value: "); 
 scanf("%d", &key);
