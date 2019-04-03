@@ -1,10 +1,23 @@
 #include <stdio.h>
 
-int main() {
-asd
-fg
-f
-f
-f
-}
-return 0:
+char word[100]
+int key
+
+
+printf("Enter a word : ");
+scanf(%s, word)
+printf("\n Enter a key value: "); 
+scanf("%d", &key);
+
+
+
+
+
+
+
+
+
+
+
+
+
