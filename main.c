@@ -3,7 +3,7 @@
 char word[100]
 int key
 
-
+//fghbjn
 printf("Enter a word : "); //jlnl
 scanf(%s, word)
 printf("\n Enter a key value: "); 
