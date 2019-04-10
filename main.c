@@ -15,30 +15,33 @@ int main() {
     scanf("%d", &key);
     length = strlen(text);
     
-    printf("the encrypted text using a cipher with with a key shift of %d is \n", key );
     
-    cipher(text, key, length);
-
+  
+    
+    fdgfd = cipher(text, key, length);
+    
+  //printf("the encrypted text using a cipher with with a key shift of %d is \n", key );
         return 0;
 }
 //encryption using cipher = text + key mod 26. 
-void cipher(char *text, int length, int key) {
+ cipher(char *text, int length, int key) {
     
     int i;  //for the for loop
     int a;  //ASCII value 
     char cipherText;
     
-    
     //loop through the text(string)
     for (i = 0; i<=length; i++) {
         
-        a = ((*text - 'a')+ key) % (26 + 'a');
+        a = ((*text)+ key) % 26 + 'a';
+        printf("a = %d\n", a);
         cipherText = a;
         printf("%c", cipherText);  //prints the string for main()
         text++;
         
     }
-    
+     printf(" \n");
+     
     
     
 }
