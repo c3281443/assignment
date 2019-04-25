@@ -17,32 +17,7 @@ int main() {
     printf("enter a key (between 1 and 25): \n");
     scanf("%d", &key);
     
-    
-    printf("the ciphered text is:  ");
-  
-    cipher(decrypted, key);ddddddddddddddddd
-   
-    
-  //printf("the encrypted text using a cipher with with a key shift of %d is \n", key );
-    
-}
-//encryption using cipher = text + key mod 26. 
- void cipher(char *decrypted, int key) {
-    
-    int i=0;  //for the for loop
-    int cipherText;
-    int ciphered;
-    
-    while( decrypted[i] != '\0' && strlen(ciphered)-1 > i) {
-        cipherText = ((int)decrypted[i] - 65 + key) % 26 + 65;
-        ciphered = (char)(cipherText);
-        
-        printf("%c", cipher);
-        i++;
-    }
-            
-    printf("\n");
-}
+ 
 
 
 
